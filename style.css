@@ -1,0 +1,47 @@
+ /* Estilos para el cuerpo */
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    background-image:url(photo-1609602644879-dd158c2b56b4.avif); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+  /* Estilos para el formulario */
+  #Formulario {
+    background-color: #ffffffc7;
+    padding: 40px;
+    border-radius: 40px; 
+    box-shadow: 0 0 10px rgba(66, 85, 192, 0.911); 
+  }
+  
+  /* Estilos para los campos de entrada y etiquetas */
+  label {
+    display: block; 
+    margin-bottom: 7px; 
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #1a1818;
+    border-radius: 5px; 
+  }
+  
+  /* Estilos para el botón de enviar */
+  input[type="submit"] {
+    background-color: #43566b; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+}
